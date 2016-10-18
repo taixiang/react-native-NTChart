@@ -16,7 +16,7 @@ Android 添加:
     `}`  
  
 JS调用:  
-  `js 文件LineView、BarView、PieView 见根目录，其中cssStyle属性仅iOS使用，调用如下`
+  `js 文件LineView、BarView、PieView 见根目录，其中cssStyle属性仅iOS使用，调用如下`  
   `折线图 xLabel：x轴数据  lineData：y轴数值`  
   `<LineView style={{width:200,height:200}}`  
              `lineData = {['1','2','5']}`  
