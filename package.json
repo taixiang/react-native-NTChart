@@ -1,0 +1,16 @@
+{
+  "name": "react-native-ntchart",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taixiang/react-native-NTChart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taixiang/react-native-NTChart/issues"
+  },
+  "homepage": "https://github.com/taixiang/react-native-NTChart#readme"
+}

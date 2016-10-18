@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2CF8C41DB5C4AA0001BF80 /* NTChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8C31DB5C4AA0001BF80 /* NTChart.m */; };
+		CD2CF8C51DB5C4AA0001BF80 /* NTChart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD2CF8C21DB5C4AA0001BF80 /* NTChart.h */; };
+		CD2CF9131DB5D8890001BF80 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8E41DB5D8890001BF80 /* LineView.m */; };
+		CD2CF9141DB5D8890001BF80 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8E71DB5D8890001BF80 /* PNBar.m */; };
+		CD2CF9151DB5D8890001BF80 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8E91DB5D8890001BF80 /* PNBarChart.m */; };
+		CD2CF9161DB5D8890001BF80 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8ED1DB5D8890001BF80 /* PNChartLabel.m */; };
+		CD2CF9171DB5D8890001BF80 /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8EF1DB5D8890001BF80 /* PNCircleChart.m */; };
+		CD2CF9181DB5D8890001BF80 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8F11DB5D8890001BF80 /* PNColor.m */; };
+		CD2CF9191DB5D8890001BF80 /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8F31DB5D8890001BF80 /* PNGenericChart.m */; };
+		CD2CF91A1DB5D8890001BF80 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8F51DB5D8890001BF80 /* PNLineChart.m */; };
+		CD2CF91B1DB5D8890001BF80 /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8F71DB5D8890001BF80 /* PNLineChartData.m */; };
+		CD2CF91C1DB5D8890001BF80 /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8F91DB5D8890001BF80 /* PNLineChartDataItem.m */; };
+		CD2CF91D1DB5D8890001BF80 /* PNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8FB1DB5D8890001BF80 /* PNPieChart.m */; };
+		CD2CF91E1DB5D8890001BF80 /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8FD1DB5D8890001BF80 /* PNPieChartDataItem.m */; };
+		CD2CF91F1DB5D8890001BF80 /* PNRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF8FF1DB5D8890001BF80 /* PNRadarChart.m */; };
+		CD2CF9201DB5D8890001BF80 /* PNRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9011DB5D8890001BF80 /* PNRadarChartDataItem.m */; };
+		CD2CF9211DB5D8890001BF80 /* PNScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9031DB5D8890001BF80 /* PNScatterChart.m */; };
+		CD2CF9221DB5D8890001BF80 /* PNScatterChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9051DB5D8890001BF80 /* PNScatterChartData.m */; };
+		CD2CF9231DB5D8890001BF80 /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9071DB5D8890001BF80 /* PNScatterChartDataItem.m */; };
+		CD2CF9241DB5D8890001BF80 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9091DB5D8890001BF80 /* UICountingLabel.m */; };
+		CD2CF9251DB5D8890001BF80 /* RNLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF90A1DB5D8890001BF80 /* RNLineView.m */; };
+		CD2CF9261DB5D8890001BF80 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF90D1DB5D8890001BF80 /* BarView.m */; };
+		CD2CF9271DB5D8890001BF80 /* RNBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF90F1DB5D8890001BF80 /* RNBarView.m */; };
+		CD2CF9281DB5D8890001BF80 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9121DB5D8890001BF80 /* PieView.m */; };
+		CD2CF92B1DB5D8D00001BF80 /* RNView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CF9291DB5D8D00001BF80 /* RNView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD2CF8BD1DB5C4AA0001BF80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CD2CF8C51DB5C4AA0001BF80 /* NTChart.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD2CF8BF1DB5C4AA0001BF80 /* libNTChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2CF8C21DB5C4AA0001BF80 /* NTChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTChart.h; sourceTree = "<group>"; };
+		CD2CF8C31DB5C4AA0001BF80 /* NTChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTChart.m; sourceTree = "<group>"; };
+		CD2CF8E41DB5D8890001BF80 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		CD2CF8E61DB5D8890001BF80 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		CD2CF8E71DB5D8890001BF80 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		CD2CF8E81DB5D8890001BF80 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		CD2CF8E91DB5D8890001BF80 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		CD2CF8EA1DB5D8890001BF80 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		CD2CF8EB1DB5D8890001BF80 /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		CD2CF8EC1DB5D8890001BF80 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		CD2CF8ED1DB5D8890001BF80 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		CD2CF8EE1DB5D8890001BF80 /* PNCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCircleChart.h; sourceTree = "<group>"; };
+		CD2CF8EF1DB5D8890001BF80 /* PNCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNCircleChart.m; sourceTree = "<group>"; };
+		CD2CF8F01DB5D8890001BF80 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		CD2CF8F11DB5D8890001BF80 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		CD2CF8F21DB5D8890001BF80 /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		CD2CF8F31DB5D8890001BF80 /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		CD2CF8F41DB5D8890001BF80 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		CD2CF8F51DB5D8890001BF80 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		CD2CF8F61DB5D8890001BF80 /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		CD2CF8F71DB5D8890001BF80 /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		CD2CF8F81DB5D8890001BF80 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		CD2CF8F91DB5D8890001BF80 /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		CD2CF8FA1DB5D8890001BF80 /* PNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChart.h; sourceTree = "<group>"; };
+		CD2CF8FB1DB5D8890001BF80 /* PNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChart.m; sourceTree = "<group>"; };
+		CD2CF8FC1DB5D8890001BF80 /* PNPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChartDataItem.h; sourceTree = "<group>"; };
+		CD2CF8FD1DB5D8890001BF80 /* PNPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChartDataItem.m; sourceTree = "<group>"; };
+		CD2CF8FE1DB5D8890001BF80 /* PNRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChart.h; sourceTree = "<group>"; };
+		CD2CF8FF1DB5D8890001BF80 /* PNRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChart.m; sourceTree = "<group>"; };
+		CD2CF9001DB5D8890001BF80 /* PNRadarChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChartDataItem.h; sourceTree = "<group>"; };
+		CD2CF9011DB5D8890001BF80 /* PNRadarChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChartDataItem.m; sourceTree = "<group>"; };
+		CD2CF9021DB5D8890001BF80 /* PNScatterChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChart.h; sourceTree = "<group>"; };
+		CD2CF9031DB5D8890001BF80 /* PNScatterChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChart.m; sourceTree = "<group>"; };
+		CD2CF9041DB5D8890001BF80 /* PNScatterChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartData.h; sourceTree = "<group>"; };
+		CD2CF9051DB5D8890001BF80 /* PNScatterChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartData.m; sourceTree = "<group>"; };
+		CD2CF9061DB5D8890001BF80 /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartDataItem.h; sourceTree = "<group>"; };
+		CD2CF9071DB5D8890001BF80 /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartDataItem.m; sourceTree = "<group>"; };
+		CD2CF9081DB5D8890001BF80 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		CD2CF9091DB5D8890001BF80 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		CD2CF90A1DB5D8890001BF80 /* RNLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLineView.m; sourceTree = "<group>"; };
+		CD2CF90B1DB5D8890001BF80 /* RNLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLineView.h; sourceTree = "<group>"; };
+		CD2CF90C1DB5D8890001BF80 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		CD2CF90D1DB5D8890001BF80 /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		CD2CF90E1DB5D8890001BF80 /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		CD2CF90F1DB5D8890001BF80 /* RNBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarView.m; sourceTree = "<group>"; };
+		CD2CF9101DB5D8890001BF80 /* RNBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarView.h; sourceTree = "<group>"; };
+		CD2CF9111DB5D8890001BF80 /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		CD2CF9121DB5D8890001BF80 /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		CD2CF9291DB5D8D00001BF80 /* RNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNView.m; sourceTree = "<group>"; };
+		CD2CF92A1DB5D8D00001BF80 /* RNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2CF8BC1DB5C4AA0001BF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2CF8B61DB5C4AA0001BF80 = {
+			isa = PBXGroup;
+			children = (
+				CD2CF8C11DB5C4AA0001BF80 /* NTChart */,
+				CD2CF8C01DB5C4AA0001BF80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2CF8C01DB5C4AA0001BF80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2CF8BF1DB5C4AA0001BF80 /* libNTChart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2CF8C11DB5C4AA0001BF80 /* NTChart */ = {
+			isa = PBXGroup;
+			children = (
+				CD2CF8E51DB5D8890001BF80 /* PNChart */,
+				CD2CF90C1DB5D8890001BF80 /* LineView.h */,
+				CD2CF8E41DB5D8890001BF80 /* LineView.m */,
+				CD2CF90B1DB5D8890001BF80 /* RNLineView.h */,
+				CD2CF90A1DB5D8890001BF80 /* RNLineView.m */,
+				CD2CF90E1DB5D8890001BF80 /* BarView.h */,
+				CD2CF90D1DB5D8890001BF80 /* BarView.m */,
+				CD2CF9101DB5D8890001BF80 /* RNBarView.h */,
+				CD2CF90F1DB5D8890001BF80 /* RNBarView.m */,
+				CD2CF92A1DB5D8D00001BF80 /* RNView.h */,
+				CD2CF9291DB5D8D00001BF80 /* RNView.m */,
+				CD2CF9111DB5D8890001BF80 /* PieView.h */,
+				CD2CF9121DB5D8890001BF80 /* PieView.m */,
+				CD2CF8C21DB5C4AA0001BF80 /* NTChart.h */,
+				CD2CF8C31DB5C4AA0001BF80 /* NTChart.m */,
+			);
+			path = NTChart;
+			sourceTree = "<group>";
+		};
+		CD2CF8E51DB5D8890001BF80 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				CD2CF8E61DB5D8890001BF80 /* PNBar.h */,
+				CD2CF8E71DB5D8890001BF80 /* PNBar.m */,
+				CD2CF8E81DB5D8890001BF80 /* PNBarChart.h */,
+				CD2CF8E91DB5D8890001BF80 /* PNBarChart.m */,
+				CD2CF8EA1DB5D8890001BF80 /* PNChart.h */,
+				CD2CF8EB1DB5D8890001BF80 /* PNChartDelegate.h */,
+				CD2CF8EC1DB5D8890001BF80 /* PNChartLabel.h */,
+				CD2CF8ED1DB5D8890001BF80 /* PNChartLabel.m */,
+				CD2CF8EE1DB5D8890001BF80 /* PNCircleChart.h */,
+				CD2CF8EF1DB5D8890001BF80 /* PNCircleChart.m */,
+				CD2CF8F01DB5D8890001BF80 /* PNColor.h */,
+				CD2CF8F11DB5D8890001BF80 /* PNColor.m */,
+				CD2CF8F21DB5D8890001BF80 /* PNGenericChart.h */,
+				CD2CF8F31DB5D8890001BF80 /* PNGenericChart.m */,
+				CD2CF8F41DB5D8890001BF80 /* PNLineChart.h */,
+				CD2CF8F51DB5D8890001BF80 /* PNLineChart.m */,
+				CD2CF8F61DB5D8890001BF80 /* PNLineChartData.h */,
+				CD2CF8F71DB5D8890001BF80 /* PNLineChartData.m */,
+				CD2CF8F81DB5D8890001BF80 /* PNLineChartDataItem.h */,
+				CD2CF8F91DB5D8890001BF80 /* PNLineChartDataItem.m */,
+				CD2CF8FA1DB5D8890001BF80 /* PNPieChart.h */,
+				CD2CF8FB1DB5D8890001BF80 /* PNPieChart.m */,
+				CD2CF8FC1DB5D8890001BF80 /* PNPieChartDataItem.h */,
+				CD2CF8FD1DB5D8890001BF80 /* PNPieChartDataItem.m */,
+				CD2CF8FE1DB5D8890001BF80 /* PNRadarChart.h */,
+				CD2CF8FF1DB5D8890001BF80 /* PNRadarChart.m */,
+				CD2CF9001DB5D8890001BF80 /* PNRadarChartDataItem.h */,
+				CD2CF9011DB5D8890001BF80 /* PNRadarChartDataItem.m */,
+				CD2CF9021DB5D8890001BF80 /* PNScatterChart.h */,
+				CD2CF9031DB5D8890001BF80 /* PNScatterChart.m */,
+				CD2CF9041DB5D8890001BF80 /* PNScatterChartData.h */,
+				CD2CF9051DB5D8890001BF80 /* PNScatterChartData.m */,
+				CD2CF9061DB5D8890001BF80 /* PNScatterChartDataItem.h */,
+				CD2CF9071DB5D8890001BF80 /* PNScatterChartDataItem.m */,
+				CD2CF9081DB5D8890001BF80 /* UICountingLabel.h */,
+				CD2CF9091DB5D8890001BF80 /* UICountingLabel.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2CF8BE1DB5C4AA0001BF80 /* NTChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2CF8C81DB5C4AA0001BF80 /* Build configuration list for PBXNativeTarget "NTChart" */;
+			buildPhases = (
+				CD2CF8BB1DB5C4AA0001BF80 /* Sources */,
+				CD2CF8BC1DB5C4AA0001BF80 /* Frameworks */,
+				CD2CF8BD1DB5C4AA0001BF80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTChart;
+			productName = NTChart;
+			productReference = CD2CF8BF1DB5C4AA0001BF80 /* libNTChart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2CF8B71DB5C4AA0001BF80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TCJQ;
+				TargetAttributes = {
+					CD2CF8BE1DB5C4AA0001BF80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD2CF8BA1DB5C4AA0001BF80 /* Build configuration list for PBXProject "NTChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD2CF8B61DB5C4AA0001BF80;
+			productRefGroup = CD2CF8C01DB5C4AA0001BF80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2CF8BE1DB5C4AA0001BF80 /* NTChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2CF8BB1DB5C4AA0001BF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2CF9191DB5D8890001BF80 /* PNGenericChart.m in Sources */,
+				CD2CF9211DB5D8890001BF80 /* PNScatterChart.m in Sources */,
+				CD2CF9201DB5D8890001BF80 /* PNRadarChartDataItem.m in Sources */,
+				CD2CF9181DB5D8890001BF80 /* PNColor.m in Sources */,
+				CD2CF9281DB5D8890001BF80 /* PieView.m in Sources */,
+				CD2CF9161DB5D8890001BF80 /* PNChartLabel.m in Sources */,
+				CD2CF91E1DB5D8890001BF80 /* PNPieChartDataItem.m in Sources */,
+				CD2CF9251DB5D8890001BF80 /* RNLineView.m in Sources */,
+				CD2CF9151DB5D8890001BF80 /* PNBarChart.m in Sources */,
+				CD2CF9241DB5D8890001BF80 /* UICountingLabel.m in Sources */,
+				CD2CF9141DB5D8890001BF80 /* PNBar.m in Sources */,
+				CD2CF9221DB5D8890001BF80 /* PNScatterChartData.m in Sources */,
+				CD2CF9131DB5D8890001BF80 /* LineView.m in Sources */,
+				CD2CF9171DB5D8890001BF80 /* PNCircleChart.m in Sources */,
+				CD2CF92B1DB5D8D00001BF80 /* RNView.m in Sources */,
+				CD2CF8C41DB5C4AA0001BF80 /* NTChart.m in Sources */,
+				CD2CF91F1DB5D8890001BF80 /* PNRadarChart.m in Sources */,
+				CD2CF91C1DB5D8890001BF80 /* PNLineChartDataItem.m in Sources */,
+				CD2CF9261DB5D8890001BF80 /* BarView.m in Sources */,
+				CD2CF91D1DB5D8890001BF80 /* PNPieChart.m in Sources */,
+				CD2CF91B1DB5D8890001BF80 /* PNLineChartData.m in Sources */,
+				CD2CF9231DB5D8890001BF80 /* PNScatterChartDataItem.m in Sources */,
+				CD2CF9271DB5D8890001BF80 /* RNBarView.m in Sources */,
+				CD2CF91A1DB5D8890001BF80 /* PNLineChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD2CF8C61DB5C4AA0001BF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD2CF8C71DB5C4AA0001BF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2CF8C91DB5C4AA0001BF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD2CF8CA1DB5C4AA0001BF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2CF8BA1DB5C4AA0001BF80 /* Build configuration list for PBXProject "NTChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2CF8C61DB5C4AA0001BF80 /* Debug */,
+				CD2CF8C71DB5C4AA0001BF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2CF8C81DB5C4AA0001BF80 /* Build configuration list for PBXNativeTarget "NTChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2CF8C91DB5C4AA0001BF80 /* Debug */,
+				CD2CF8CA1DB5C4AA0001BF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2CF8B71DB5C4AA0001BF80 /* Project object */;
+}
