@@ -16,33 +16,7 @@ Android 添加:
     `}`  
  
 JS调用:  
-  `折线图LineView`
-  ` import React from 'react';
-  import { requireNativeComponent,PropTypes,Platform,View} from 'react-native';
-  if(Platform.OS=='ios'){
-    class LineView extends React.Component {
-        render() {
-            return <RCTLine {...this.props} />;
-        }
-    }
-    LineView.propTypes = {
-        xLabel : React.PropTypes.array, //x轴数据
-        lineData:React.PropTypes.array, //y轴数值
-        cssStyle:React.PropTypes.array, //仅ios使用
-    };
-    var RCTLine = requireNativeComponent('RNLineView', LineView);
-    module.exports = LineView;
-    }else {
-    var lineView = {
-        name: 'LineView',
-        propTypes: {
-            lineData:React.PropTypes.array,
-            xLabel:React.PropTypes.array,
-            ...View.propTypes // include the default view properties
-        },
-    };
-    module.exports = requireNativeComponent('RNLineView', lineView);
-}`  
+  `js 文件LineView、BarView、PieView 见根目录，其中cssStyle属性仅iOS使用，调用如下`
   `折线图 xLabel：x轴数据  lineData：y轴数值`  
   `<LineView style={{width:200,height:200}}`  
              `lineData = {['1','2','5']}`  
